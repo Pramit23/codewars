@@ -1,4 +1,6 @@
 <?php
+use PHPUnit\Framework\TestCase;
+
 class RevRotTestCases extends TestCase {
     private function revTest($actual, $expected) {
         $this->assertEquals($expected, $actual);
